@@ -9,7 +9,7 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <Database className="h-8 w-8 text-primary" />
             <h1 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              CrystalStore
+              Glasschrono
             </h1>
           </div>
           
