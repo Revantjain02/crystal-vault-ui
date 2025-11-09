@@ -8,60 +8,60 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 40% 6%;
-    --foreground: 210 100% 98%;
+    --background: 30 25% 96%;
+    --foreground: 0 15% 15%;
 
-    --card: 220 40% 8%;
-    --card-foreground: 210 100% 98%;
+    --card: 30 20% 98%;
+    --card-foreground: 0 15% 15%;
 
-    --popover: 220 40% 10%;
-    --popover-foreground: 210 100% 98%;
+    --popover: 30 20% 98%;
+    --popover-foreground: 0 15% 15%;
 
-    --primary: 195 100% 50%;
-    --primary-foreground: 220 40% 6%;
+    --primary: 0 60% 40%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 270 80% 60%;
-    --secondary-foreground: 210 100% 98%;
+    --secondary: 0 40% 60%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 220 30% 15%;
-    --muted-foreground: 210 40% 70%;
+    --muted: 30 15% 92%;
+    --muted-foreground: 0 15% 45%;
 
-    --accent: 280 90% 65%;
-    --accent-foreground: 210 100% 98%;
+    --accent: 10 50% 50%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 100% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 220 30% 20%;
-    --input: 220 30% 15%;
-    --ring: 195 100% 50%;
+    --border: 30 12% 88%;
+    --input: 30 15% 92%;
+    --ring: 0 60% 40%;
 
     --radius: 1rem;
 
-    /* Crystal theme colors */
-    --crystal-cyan: 195 100% 50%;
-    --crystal-violet: 270 80% 60%;
-    --crystal-blue: 220 90% 45%;
-    --crystal-glow: 195 100% 70%;
+    /* Maroon theme colors */
+    --crystal-maroon: 0 60% 40%;
+    --crystal-light: 0 40% 60%;
+    --crystal-rose: 350 50% 55%;
+    --crystal-accent: 10 50% 50%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(195 100% 50%), hsl(270 80% 60%));
-    --gradient-card: linear-gradient(135deg, hsl(220 40% 10% / 0.6), hsl(270 40% 15% / 0.4));
-    --gradient-button: linear-gradient(135deg, hsl(195 100% 50%), hsl(270 80% 60%), hsl(280 90% 65%));
+    --gradient-primary: linear-gradient(135deg, hsl(0 60% 40%), hsl(350 50% 55%));
+    --gradient-card: linear-gradient(135deg, hsl(30 20% 98% / 0.8), hsl(30 15% 94% / 0.6));
+    --gradient-button: linear-gradient(135deg, hsl(0 60% 40%), hsl(350 50% 55%), hsl(10 50% 50%));
     
     /* Glass morphism */
-    --glass-bg: hsl(220 40% 10% / 0.4);
-    --glass-border: hsl(195 100% 50% / 0.2);
+    --glass-bg: hsl(30 20% 98% / 0.6);
+    --glass-border: hsl(0 60% 40% / 0.2);
     
     /* Shadows and glows */
-    --shadow-crystal: 0 8px 32px hsl(195 100% 50% / 0.15);
-    --glow-cyan: 0 0 20px hsl(195 100% 50% / 0.5);
-    --glow-violet: 0 0 30px hsl(270 80% 60% / 0.4);
+    --shadow-crystal: 0 8px 32px hsl(0 60% 40% / 0.15);
+    --glow-maroon: 0 0 20px hsl(0 60% 40% / 0.3);
+    --glow-rose: 0 0 30px hsl(350 50% 55% / 0.3);
   }
 
   .dark {
-    --background: 220 40% 6%;
-    --foreground: 210 100% 98%;
+    --background: 30 25% 96%;
+    --foreground: 0 15% 15%;
   }
 }
 
